@@ -45,8 +45,6 @@ const therapists = [
 const FindTherapist = () => {
   return (
     <div className="min-h-screen">
-      <Navbar />
-      
       <div className="pt-20 pb-16 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-12">
@@ -107,8 +105,6 @@ const FindTherapist = () => {
           </div>
         </div>
       </div>
-      
-      <Footer />
     </div>
   );
 };

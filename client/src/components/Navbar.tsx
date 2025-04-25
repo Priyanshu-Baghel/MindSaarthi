@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
         <div className="hidden md:flex items-center space-x-6">
           <Link to="/" className="text-gray-700 hover:text-mindblue transition-colors">Home</Link>
           <Link to="/about" className="text-gray-700 hover:text-mindblue transition-colors">About</Link>
-          <Link to="/resources" className="text-gray-700 hover:text-mindblue transition-colors">Resources</Link>
+          <Link to="/resource" className="text-gray-700 hover:text-mindblue transition-colors">Resources</Link>
           <Link to="/find-therapist" className="text-gray-700 hover:text-mindblue transition-colors">Find a Therapist</Link>
         </div>
       </div>
